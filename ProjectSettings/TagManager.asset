@@ -49,3 +49,7 @@ TagManager:
     userID: 2
     uniqueID: 2136613635
     locked: 0
+  - name: blackScreen
+    userID: 3
+    uniqueID: 4157617043
+    locked: 0

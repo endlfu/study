@@ -3,11 +3,14 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-	public float speed = 10      ;
+	public float speed = 10;
 
 	// ゲームオブジェクト生成から削除するまでの時間
-	public float lifeTime = 1   ;
+	public float lifeTime = 1;
 
+	// 攻撃力
+	public int power = 1;
+	  
   	// Use this for initialization
 	void Start () {
 		rigidbody2D.velocity = transform.up.normalized * speed;
